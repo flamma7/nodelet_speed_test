@@ -1,0 +1,12 @@
+<library path="lib/libnodelet_speed_test">
+  <class name="nodelet_speed_test/NodeletPubber" type="nodelet_speed_test::NodeletPubber" base_class_type="nodelet::Nodelet">
+    <description>
+      A nodelet that publishes images.
+    </description>
+  </class>
+  <class name="nodelet_speed_test/NodeletSubber" type="nodelet_speed_test::NodeletSubber" base_class_type="nodelet::Nodelet">
+    <description>
+      A nodelet that subscribes to images.
+    </description>
+  </class>
+</library>
